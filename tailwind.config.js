@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         moderate_violet: 'hsl(263, 55%, 52%)',
+        soft_violet: '#A775F1',
         very_dark_grayish_blue: 'hsl(217, 19%, 35%)',
         very_dark_blackish_blue: 'hsl(219, 29%, 14%)',
         white: 'hsl(0, 0%, 100%)',
