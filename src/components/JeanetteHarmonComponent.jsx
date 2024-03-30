@@ -2,11 +2,13 @@ import Jeanette from '../assets/image-jeanette.jpg'
 
 export const JeanetteHarmonComponent = () => {
   return (
-    <div>
-        <div>
-            <img src={ Jeanette } alt="Jeanette's photo" />
-            Jeanette Harmon
-            Verified Graduate
+    <div className='bg-white rounded-lg p-8'>
+        <div className='flex justify-start items-center gap-[17px] mb-[18px]'>
+            <img className='w-[28px] h-[28px] rounded-full' src={ Jeanette } alt="Jeanette's photo" />
+            <div>
+              <h1 className='text-very_dark_grayish_blue font-medium text-[13px] leading-[13px]'>Jeanette Harmon</h1>
+              <h2 className='text-very_dark_grayish_blue opacity-50 font-medium text-[11px] leading-[11px]'>Verified Graduate</h2>
+            </div>
         </div>
         <div>
             An overall wonderful and rewarding experience
