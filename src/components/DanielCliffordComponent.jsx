@@ -4,7 +4,7 @@ import pattern from '../assets/bg-pattern-quotation.svg'
 export const DanielCliffordComponent = () => {
   return (
     <div className='relative bg-moderate_violet rounded-lg p-8'>
-        <div className='absolute top-0 right-0 mr-8'>
+        <div className='absolute top-0 right-0 mr-8 lg:mr-20'>
           <img className='h-full w-full' src={ pattern } alt="Pattern" />
         </div>
         <div className='flex justify-start items-center gap-[17px] mb-[18px]'>
