@@ -3,7 +3,7 @@ import './App.css'
 export function App() {
  
   return (
-    <div>
+    <div className='font-Barlow'>
       <body>
         Daniel Clifford
         Verified Graduate
@@ -58,9 +58,9 @@ export function App() {
         experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
         100% recommend! ”
         
-        <div class="attribution">
+        <div>
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-          Coded by <a href="#">Your Name Here</a>.
+          Coded by <a href="https://github.com/flaviare1s">Flávia Reis</a>.
         </div>
       </body>
     </div>
