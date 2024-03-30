@@ -11,7 +11,9 @@ export const JeanetteHarmonComponent = () => {
             </div>
         </div>
         <div>
-            An overall wonderful and rewarding experience
+            <p className='text-very_dark_grayish_blue text-xl font-semibold pb-4 lg:pb-6'>
+              An overall wonderful and rewarding experience
+            </p>
         </div>
         <div>
             “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”

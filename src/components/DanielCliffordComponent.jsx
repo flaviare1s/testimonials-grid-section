@@ -4,8 +4,8 @@ import pattern from '../assets/bg-pattern-quotation.svg'
 export const DanielCliffordComponent = () => {
   return (
     <div className='relative bg-moderate_violet rounded-lg p-8'>
-        <div className='absolute top-0 right-0 mr-8 z-0'>
-          <img className='h-full z-10' src={ pattern } alt="Pattern" />
+        <div className='absolute top-0 right-0 mr-8'>
+          <img className='h-full w-full' src={ pattern } alt="Pattern" />
         </div>
         <div className='flex justify-start items-center gap-[17px] mb-[18px]'>
             <img className='w-[28px] h-[28px] rounded-full border-2 border-soft_violet' src={ Daniel } alt="Daniel's photo" />
@@ -14,8 +14,8 @@ export const DanielCliffordComponent = () => {
               <h2 className='text-white opacity-50 font-medium text-[11px] leading-[11px]'>Verified Graduate</h2>
             </div>
         </div>
-        <div className='z-20'>
-            <p>
+        <div className='relative z-20'>
+            <p className='text-white text-xl font-semibold pb-10 lg:pb-4'>
               I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.
             </p>
         </div>

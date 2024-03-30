@@ -11,7 +11,9 @@ export const JonathanWaltersComponent = () => {
             </div>
         </div>
         <div>
-            The team was very supportive and kept me motivated
+            <p className='text-white text-xl font-semibold pb-4'>
+              The team was very supportive and kept me motivated
+            </p>
         </div>
         <div>
             “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”
