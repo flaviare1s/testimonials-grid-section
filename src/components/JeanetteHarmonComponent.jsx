@@ -16,7 +16,9 @@ export const JeanetteHarmonComponent = () => {
             </p>
         </div>
         <div>
-            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”
+            <p className='text-very_dark_grayish_blue text-opacity-70 text-[13px] font-medium leading-[18px]'>
+              “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”
+            </p>
         </div>
     </div>
   )

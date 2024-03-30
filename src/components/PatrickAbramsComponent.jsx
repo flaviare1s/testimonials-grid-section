@@ -16,7 +16,9 @@ export const PatrickAbramsComponent = () => {
             </p>
         </div>
         <div>
-            “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”
+            <p className='text-white text-opacity-70 text-[13px] font-medium leading-[18px]'>
+              “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”
+            </p>
         </div>
     </div>
   )
